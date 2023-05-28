@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  /* background-color: #b1c7e4 !important; */
+}
+
+
+
+
+.home{
+  width: 60%;
+  margin-top: 5vh;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.login{
+  width: 40%;
+  margin-top: 30vh;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.register{
+  width: 40%;
+  margin-top: 20vh;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.dash{
+  width: 50%;
+  margin-top: 12vh;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.bg-coolColor{
+  background-color: #09335E !important;
+}
+.btn-coolColor{
+  background-color: #09335E !important;
+  color:#fff !important;
+}
+nav {
+  height: 5rem;
+  padding: 0 3rem !important;
+}
+.navbar-brand{
+  font-size: 1.3rem !important;
+  cursor: pointer;
+}
+.navbar-nav{
+  display: flex;
+  align-items: center;
+}
+.nav-link, .nav-item{
+  padding-top: 1rem;
+  width: max-content;
+}
+.img{
+  padding: 0;
+}
+.text-nav{
+  margin-right: 2rem;
+  font-size: 1rem;
+
+}
+
+.box{
+  border: 0.5px solid #aaa;
+  border-radius: 10px;
+  padding: 2vh 1vw;
+  margin-bottom: 5vh;
+  background-color: #D5F3FE !important;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+}
+.box h2 {
+  position: relative;
+  border-radius: 6px;
+  color: #12294e !important;
+  padding: 1vh 1vw;
+  font-weight: 400;
+  margin-bottom: 2vh;
+}

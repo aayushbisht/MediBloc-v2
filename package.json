@@ -1,0 +1,25 @@
+{
+  "name": "medibloc",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client:install": "npm install --prefix client",
+    "client:start": "npm start --prefix client",
+    "truffle:compile": "npm run compile --prefix truffle",
+    "truffle:install": "npm install --prefix truffle",
+    "truffle:migrate": "npm run migrate --prefix truffle",
+    "truffle:test": "npm run test --prefix truffle",
+    "watch:css": "postcss ./client/src/index.css -o ./client/public/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushbisht/MediBloc-v2.git"
+  },
+  "license": "MIT",
+  
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
